@@ -34,5 +34,25 @@ font-size: 30px;
 
 export const ButtonRemove = styled.button`
 padding: 2px;
-margin-left: 3px;` 
+margin-left: 3px;
+border: none;
+background: none;
+font-size: 30px;
+&:hover {
+        color: red;
+        transition: filter 0.3s;
+    }
+ ` 
+
+export const ButtonBack = styled.button`
+padding: 2px;
+margin-left: 3px; 
+font-size: 20px;
+border: none;
+background: none;
+
+&:hover {
+        font-size: 25px;
+        transition: filter 0.3s;
+    }`
 
